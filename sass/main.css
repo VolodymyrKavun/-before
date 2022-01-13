@@ -46,14 +46,15 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 161px;
 }
 
 .icecream_title::before {
   content: '';
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -110px;
+  left: 20px;
   width: 100%;
   height: 100%;
   background: url("../image/ice-1.png");
@@ -69,6 +70,7 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  margin-top: 66px;
 }
 
 .icecream_btn {
@@ -76,14 +78,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  border: none;
+  margin: auto;
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
